@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class MainComponent extends React.Component {
   render() {
@@ -13,11 +14,15 @@ class MainComponent extends React.Component {
               Doloremque ex nemo, magnam architecto voluptas placeat.
             </p>
             <div className="btn-main">
-              <button className="contact_btn btn">My Portfolio</button>
-              <button className="contact_btn btn" style={{ margin: "0 10px" }}>
-                Contact Me
+              <button className="contact_btn btn">
+                <Link to="portfolio">My Portfolio</Link>
               </button>
-              <button className="contact_btn btn">Aboute</button>
+              <button className="contact_btn btn" style={{ margin: "0 10px" }}>
+                <Link to="contact">Contact Me</Link>
+              </button>
+              <button className="contact_btn btn">
+                <Link to="about">Aboute</Link>
+              </button>
             </div>
           </div>
         </div>
