@@ -48,7 +48,7 @@
 }
 
 .toogle-mode i {
-  font-size: 13.2px;
+  font-size: 16px;
 }
 
 /* /HeaderComponent */
@@ -58,7 +58,7 @@
 .follow-link {
   margin-top: 50px;
   width: 30px;
-  font-size: 12px;
+  font-size: 16px;
   position: fixed;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .text-lorem {
-  font-size: 10.72px;
+  font-size: 16px;
   line-height: 16px;
   color: #333;
   margin: 30px 20px 15px 0px;
@@ -142,7 +142,7 @@
   width: 49%;
   height: 98vh;
   margin-top: -35px;
-  background-image: url(hacker.jpg);
+  background-image: url(../../public/image/hacker.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -182,12 +182,41 @@
 .card {
   width: 30%;
   height: 200px;
-  background-image: url(hacker.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 10px 0;
   border-radius: 5px;
+}
+.card1 {
+  background-image: url(../../public/image/card1.webp);
+}
+.card2 {
+  background-image: url(../../public/image/card2.webp);
+}
+.card3 {
+  background-image: url(../../public/image/card3.webp);
+}
+.card4 {
+  background-image: url(../../public/image/card4.webp);
+}
+.card6 {
+  background-image: url(../../public/image/card6.webp);
+}
+.card7 {
+  background-image: url(../../public/image/card7.webp);
+}
+.card8 {
+  background-image: url(../../public/image/card8.webp);
+}
+.card9 {
+  background-image: url(../../public/image/card9.webp);
+}
+.card2 {
+  background-image: url(../../public/image/card2.webp);
+}
+.card5 {
+  background-image: url(../../public/image/hacker.jpg);
 }
 
 .card:hover {
@@ -212,7 +241,7 @@
 }
 
 .myself_text {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -225,7 +254,7 @@
 }
 
 .li {
-  font-size: 13px;
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -239,7 +268,7 @@
 .contact_right {
   width: 50%;
   margin-top: 20px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 

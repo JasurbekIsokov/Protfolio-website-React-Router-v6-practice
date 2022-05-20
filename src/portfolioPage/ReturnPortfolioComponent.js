@@ -13,19 +13,19 @@ class ReturnPortfolioComponent extends React.Component {
           <hr />
         </div>
         <div className="cards">
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          <div className="card1 card"></div>
+          <div className="card2 card"></div>
+          <div className="card3 card"></div>
         </div>
         <div className="cards">
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          <div className="card4 card"></div>
+          <div className="card5 card"></div>
+          <div className="card6 card"></div>
         </div>
         <div className="cards">
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          <div className="card7 card"></div>
+          <div className="card8 card"></div>
+          <div className="card9 card"></div>
         </div>
       </div>
     );

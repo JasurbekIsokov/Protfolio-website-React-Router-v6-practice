@@ -13,8 +13,11 @@ class MainComponent extends React.Component {
               Doloremque ex nemo, magnam architecto voluptas placeat.
             </p>
             <div className="btn-main">
-              <button className="portfolio_btn btn">My Portfolio</button>
-              <button className="contact_btn btn">Contact Me</button>
+              <button className="contact_btn btn">My Portfolio</button>
+              <button className="contact_btn btn" style={{ margin: "0 10px" }}>
+                Contact Me
+              </button>
+              <button className="contact_btn btn">Aboute</button>
             </div>
           </div>
         </div>

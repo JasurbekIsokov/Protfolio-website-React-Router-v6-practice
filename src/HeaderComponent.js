@@ -9,12 +9,10 @@ class HeaderComponent extends React.Component {
     return (
       <div className="header">
         <p className="title">PLUX</p>
-        <div className="header-buttons">
-          <div className="toogle-mode">
-            <i className="adjust icon"></i>
-          </div>
-          <div className="navbar"></div>
+        <div className="toogle-mode">
+          <i className="adjust icon"></i>
         </div>
+        <div className="navbar"></div>
       </div>
     );
   }
