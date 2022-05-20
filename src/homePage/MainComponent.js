@@ -15,13 +15,29 @@ class MainComponent extends React.Component {
             </p>
             <div className="btn-main">
               <button className="contact_btn btn">
-                <Link to="portfolio">My Portfolio</Link>
+                <Link
+                  to="/portfolio"
+                  style={{ color: "#000", textDecoration: "none" }}
+                  className="link"
+                >
+                  My Portfolio
+                </Link>
               </button>
               <button className="contact_btn btn" style={{ margin: "0 10px" }}>
-                <Link to="contact">Contact Me</Link>
+                <Link
+                  to="/contact"
+                  style={{ color: "#000", textDecoration: "none" }}
+                >
+                  Contact Me
+                </Link>
               </button>
               <button className="contact_btn btn">
-                <Link to="about">Aboute</Link>
+                <Link
+                  to="/about"
+                  style={{ color: "#000", textDecoration: "none" }}
+                >
+                  Aboute
+                </Link>
               </button>
             </div>
           </div>

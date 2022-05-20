@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import ReturnComponent from "./homePage/ReturnComponent.js";
 import ReturnPortfolioComponent from "./portfolioPage/ReturnPortfolioComponent.js";
@@ -15,21 +15,17 @@ class App extends React.Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <Routes>
-          <div className="window">
-            <div className="container">
-              <Route path="/" element={<ReturnComponent />}></Route>
-            </div>
-            <Route
-              path="/portfolio"
-              element={<ReturnPortfolioComponent />}
-            ></Route>
-            <Route path="/about" element={<AboutRenderComponent />}></Route>
-            <Route path="/contact" element={<ContactRenderComponent />}></Route>
-          </div>
+          <Route path="/" element={<ReturnComponent />}></Route>
+          <Route
+            path="/portfolio"
+            element={<ReturnPortfolioComponent />}
+          ></Route>
+          <Route path="/about" element={<AboutRenderComponent />}></Route>
+          <Route path="/contact" element={<ContactRenderComponent />}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     );
   }
 }

@@ -57,6 +57,7 @@
 
 .follow-link {
   margin-top: 50px;
+  margin-left: 10px;
   width: 30px;
   font-size: 16px;
   position: fixed;
@@ -124,16 +125,6 @@
 
 .portfolio_btn {
   margin-right: 20px;
-  background-color: #000;
-  color: #999;
-}
-
-.portfolio_btn:hover {
-  background-color: #fff;
-  color: #333;
-}
-
-.contact_btn:hover {
   background-color: #000;
   color: #999;
 }
@@ -313,3 +304,6 @@
   cursor: pointer;
 }
 /* /Contact page */
+.btn:hover {
+  color: #fff;
+}
